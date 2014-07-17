@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delta.finalproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.delta.finalproject.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.Password"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.PASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.MenuOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.MENUONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.AboutTheDirector"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.ABOUTTHEDIRECTOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.ImportantBuildings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.IMPORTANTBUILDINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.IB1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.IB1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.IB2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.IB2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.IB3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.IB3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.IB4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.IB4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.RandomTips"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.RANDOMTIPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.EatingOnCampus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.EATINGONCAMPUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.Events"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.EVENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.Transport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.TRANSPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delta.finalproject.ClubsAndTeams"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.CLUBSANDTEAMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

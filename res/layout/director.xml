@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="The Clock Tower" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Details"
+         android:layout_gravity="center"
+         android:paddingBottom="40sp"
+         />
+
+    <ImageView
+        android:id="@+id/ivDirector"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:src="@drawable/abc_ab_solid_light_holo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="250sp"
+        android:text="The Director" />
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Back To Main Menu"
+        android:textSize="15sp" />
+
+</LinearLayout>
