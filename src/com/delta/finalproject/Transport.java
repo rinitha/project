@@ -15,17 +15,7 @@ public class Transport extends TabActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.eating);
-		bBack = (Button) findViewById(R.id.bBack);
-		bBack.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				Intent i = new Intent("com.delta.finalproject.MENUONE");
-				startActivity(i);
-			}
-		});
+		setContentView(R.layout.transport);
 
 		         
 		        TabHost tabHost = getTabHost();
@@ -33,19 +23,19 @@ public class Transport extends TabActivity{
 		        // Tab for Photos
 		        TabSpec photospec = tabHost.newTabSpec("Auto");
 		        // setting Title and Icon for the Tab
-		        photospec.setIndicator("Auto", getResources().getDrawable(R.drawable.auto));
+		        photospec.setIndicator("Auto", getResources().getDrawable(R.drawable.autobig));
 		        Intent photosIntent = new Intent(this, Auto.class);
 		        photospec.setContent(photosIntent);
 		         
 		        // Tab for Songs
 		        TabSpec songspec = tabHost.newTabSpec("Taxi");        
-		        songspec.setIndicator("Taxi", getResources().getDrawable(R.drawable.taxi));
+		        songspec.setIndicator("Taxi", getResources().getDrawable(R.drawable.taxibig));
 		        Intent songsIntent = new Intent(this, Taxi.class);
 		        songspec.setContent(songsIntent);
 		         
 		        // Tab for Videos
 		        TabSpec videospec = tabHost.newTabSpec("Bus");
-		        videospec.setIndicator("Bus", getResources().getDrawable(R.drawable.bus));
+		        videospec.setIndicator("Bus", getResources().getDrawable(R.drawable.busbig));
 		        Intent videosIntent = new Intent(this, Bus.class);
 		        videospec.setContent(videosIntent);
 		         

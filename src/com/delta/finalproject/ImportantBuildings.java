@@ -10,8 +10,9 @@ import android.widget.ListView;
 public class ImportantBuildings extends ListActivity {
 
 	String[] options = {
-			"Library, Sports Center, SAC, Physical Department (PD)",
-			"Shopping Center", "Gurunath, Octagon, LHC",
+			"Library, Sports Center, SAC",
+			"Shopping Center", 
+			"Gurunath, Octagon, LHC",
 			"Hospital, NITT BookHouse, Guesthouse" };
 
 	@Override

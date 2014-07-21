@@ -8,6 +8,8 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -130,6 +132,94 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.festember"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.FESTEMBER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.pragyan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.PRAGYAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.nittfest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.NITTFEST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.internit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.INTERNIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.vibes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.VIBES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.horizons"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.HORIZONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.delta.finalproject.aaveg"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.AAVEG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.delta.finalproject.sportsFete"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.delta.finalproject.SPORTSFETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Songs Activity -->
+        <activity android:name=".Auto" />
+
+        <!-- Videos Activity -->
+        <activity android:name=".Taxi" />
+
+        <!-- Photos Activity -->
+        <activity android:name=".Bus" />
         <activity
             android:name="com.delta.finalproject.ClubsAndTeams"
             android:label="@string/app_name" >

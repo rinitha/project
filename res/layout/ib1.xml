@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="250sp"
-    android:layout_marginTop="30sp"
-    android:background="@drawable/graffiti"
+    android:layout_height="match_parent"
     android:orientation="vertical" >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="250sp"
-        android:text="Library, SAC, Sports Center" />
+        android:textStyle="bold"
+        android:text="LIBRARY" />
+
+    <TextView
+        android:id="@+id/tvLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="SAC" />
+
+    <TextView
+        android:id="@+id/tvSAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="SPORTS CENTER" />
+
+    <TextView
+        android:id="@+id/tvSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
     <Button
         android:id="@+id/bBack"
@@ -18,6 +46,5 @@
         android:layout_height="wrap_content"
         android:text="Back To Main Menu"
         android:textSize="15sp" />
-"
-
+    
 </LinearLayout>

@@ -22,7 +22,7 @@ public class WelcomePage extends ActionBarActivity {
         	public void run(){
         		try
         		{
-        			sleep(5000);
+        			sleep(2000);
         		}
         		catch (InterruptedException e){
         			e.printStackTrace();
@@ -36,5 +36,11 @@ public class WelcomePage extends ActionBarActivity {
         	};
         	timer.start();
         
+	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();
 	}
 }

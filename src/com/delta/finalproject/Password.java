@@ -1,5 +1,8 @@
 package com.delta.finalproject;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import android.R.menu;
 import android.app.Activity;
 import android.content.Intent;
@@ -15,9 +18,14 @@ public class Password extends Activity {
 	String pass;
 	Button Proceed;
 	TextView msg;
+	SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
+	final String current = sdf.format(new Date());
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
+		
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.password);
 		
@@ -31,7 +39,7 @@ public class Password extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				pass = etPass.getText().toString();
-				if(pass.contentEquals("hello"))
+				if(pass.contentEquals(current))
 				{
 					Intent dialogIntent = new Intent(getBaseContext(), MenuOne.class);
 					dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -48,5 +56,14 @@ public class Password extends Activity {
 		});
 		
  	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();
+	}
+	
+	
 
 }

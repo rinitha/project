@@ -8,31 +8,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="The Clock Tower" />
+        android:textStyle="bold"
+        android:text="The Director"
+        android:textSize="20sp"
+        android:paddingBottom="10sp" />
 
+    <ImageView
+        android:id="@+id/ivDirector"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center"
+        android:src="@drawable/abc_ab_solid_light_holo" />
+    
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/tvDetails1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Random Details"
+        android:text=" "
+        android:textSize="8sp"
          android:layout_gravity="center"
          android:paddingBottom="40sp"
          />
 
-    <ImageView
-        android:id="@+id/ivDirector"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_gravity="center"
-        android:src="@drawable/abc_ab_solid_light_holo" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:paddingBottom="250sp"
-        android:text="The Director" />
+        android:textStyle="bold"
+        android:text="The Clock Tower"
+        android:textSize="20sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetails2"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text=" "
+        android:textSize="8sp"
+         />
     <Button
         android:id="@+id/bBack"
         android:layout_width="110dp"
